@@ -1,10 +1,10 @@
-# ML_Orb
+# ML_Ham_Orb
 
-**Efficient and Transferable Prediction of Hybrid-Functional Kohn–Sham Hamiltonians for Large Molecules Using Low-Cost Electronic-Structure Features and an Orbital-Graph Neural Network**
+**Efficient and TransferabHam_le Prediction of Hybrid-Functional Kohn–Sham Hamiltonians for Large Molecules Using Low-Cost Electronic-Structure Features and an Orbital-Graph Neural Network**
 
 ## Overview
 
-ML_Orb is a machine-learning framework for predicting hybrid-functional Kohn–Sham Hamiltonians from lower-cost electronic-structure features. The project uses the established symmetry-adapted intrinsic atomic orbital (SAIAO) representation and an orbital-graph neural network developed for this Hamiltonian-prediction task.
+ML_Ham_Orb is a machine-learning framework for predicting hybrid-functional Kohn–Sham Hamiltonians from lower-cost electronic-structure features. The project uses the established symmetry-adapted intrinsic atomic orbital (SAIAO) representation and an orbital-graph neural network developed for this Hamiltonian-prediction task.
 
 ## Requirements
 
