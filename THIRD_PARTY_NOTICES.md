@@ -16,7 +16,7 @@ The modified routines in `saao_simple.py` support the following functions:
 
 The `saao_simple.py` file should retain all original copyright, authorship, license, and warranty notices from the upstream source. It should also prominently state that the file has been modified and include the date of modification, as required by the applicable GPLv3 terms.
 
-## Original contributions in ML_Orb
+## Original contributions in ML_Ham_Orb
 
 The graph neural network implementation for predicting hybrid-functional Kohn–Sham Hamiltonians was developed by the ML_Orb authors. It employs edge-dependent gated message passing with fixed edge embeddings during graph convolution. This implementation uses the established SAIAO representation and orbital-graph concepts but is a distinct implementation from the GNN code in MLGF.
 
