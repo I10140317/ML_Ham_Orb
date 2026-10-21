@@ -1,6 +1,6 @@
 # ML_Ham_Orb
 
-**Efficient and TransferabHam_le Prediction of Hybrid-Functional Kohn–Sham Hamiltonians for Large Molecules Using Low-Cost Electronic-Structure Features and an Orbital-Graph Neural Network**
+**Efficient and Transferable Prediction of Hybrid-Functional Kohn–Sham Hamiltonians for Large Molecules Using Low-Cost Electronic-Structure Features and an Orbital-Graph Neural Network**
 
 ## Overview
 
