@@ -25,7 +25,7 @@ The original MLGF repository is available at: https://github.com/ZhuGroup-Yale/m
 
 The original copyright and license notices associated with the reused code must be retained. The modifications in `saao_simple.py` should be identified in that file, with the relevant modification date. Further details are provided in [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md).
 
-The graph neural network implementation for hybrid-functional Hamiltonian prediction was developed by the ML_Orb authors. It uses an edge-dependent gated message-passing architecture with fixed edge embeddings during graph convolution. This implementation builds upon established SAIAO and orbital-graph learning concepts but is distinct from the GNN implementation in MLGF.
+The graph neural network implementation for hybrid-functional Hamiltonian prediction was developed by the ML_Ham_Orb authors. It uses an edge-dependent gated message-passing architecture with fixed edge embeddings during graph convolution. This implementation builds upon established SAIAO and orbital-graph learning concepts but is distinct from the GNN implementation in MLGF.
 
 ## License
 
