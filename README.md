@@ -11,7 +11,7 @@ ML_Orb is a machine-learning framework for predicting hybrid-functional Kohn–S
 - **PySCF** and all required dependencies.
 - **libdmet**, developed by Zhi-Hao Cui: https://github.com/gkclab/libdmet_preview
 - **scikit-learn**, for self-energy kernel ridge regression (KRR): https://scikit-learn.org
-- **PyTorch Geometric** and all required dependencies for MBGF-Net: https://pytorch-geometric.readthedocs.io and https://pytorch.org
+- **PyTorch Geometric** and all required dependencies: https://pytorch-geometric.readthedocs.io and https://pytorch.org
 
 ## Code attribution
 
