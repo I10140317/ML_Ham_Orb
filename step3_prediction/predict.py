@@ -48,13 +48,7 @@ def predict(model, loader, device, stats):
         node_pred_real = node_pred * stats['nodey_std'].to(device) + stats['nodey_mean'].to(device)
         edge_pred_real = edge_pred * stats['edgey_std'].to(device) + stats['edgey_mean'].to(device)
         H_pred = build_symmetric_matrix(node_pred_real,edge_pred_real,data.edge_index,data.num_nodes)
-
-        e_vals, e_vecs = torch.linalg.eigh(data.Sao_saiao)
-        e_vals = torch.clamp(e_vals, min=1e-12)
-        S_inv_sqrt = (e_vecs * e_vals.pow(-0.5)) @ e_vecs.T
-
-        H_pred = S_inv_sqrt @ H_pred @ S_inv_sqrt
-        H_real = S_inv_sqrt @ data.fock_hyb_saiao @ S_inv_sqrt
+        H_real = data.fock_hyb_saiao
         epsilon_pred, C_pred = torch.linalg.eigh(H_pred)
         epsilon_real, C_real = torch.linalg.eigh(H_real)
 
