@@ -83,7 +83,6 @@ def data_generator_from_pt(pt_files, build_pyg_data_from_mats,
 
                 data = build_pyg_data_from_mats(A, M_list, len(key_list), remove_self=remove_self, undirected=undirected)
                 data.C_ao_saiao = mlf['C_ao_saiao']
-                data.Sao_saiao = mlf['Sao_saiao']
                 data.fock_saiao = mlf['fock_saiao']
 
                 if "fock_hyb_saiao" in key_list:
